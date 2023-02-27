@@ -19,7 +19,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         centerTitle: true,
         title: Text("Controle de caixa"),
-        leading: Image.asset("lib/assets/images/logo-simbiose.png"),
+        leading: Image.asset("lib/assets/images/simbiose-icon.png"),
       ),
       floatingActionButton:
         _currentIndex == 1 || _currentIndex == 2 ? FloatingActionButton.extended(
@@ -36,6 +36,7 @@ class _HomeState extends State<Home> {
           },
           fixedColor: Colors.white,
           unselectedItemColor: Colors.white,
+          showUnselectedLabels: true,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.inbox), label: "Caixa"),
             BottomNavigationBarItem(icon: Icon(Icons.inbox), label: "Entrada"),

@@ -5,6 +5,6 @@ class Caixa extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text("Saldo RS20");
+    return Text("");
   }
 }

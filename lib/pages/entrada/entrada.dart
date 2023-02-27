@@ -6,7 +6,9 @@ class Entrada extends StatelessWidget {
     return Flexible(
       child: ListView.builder(itemBuilder: (context, index) {
         return ListTile(
-          title: Text("Entrada"),
+          title: Text("Entrada 24/02"),
+          trailing: Text("RS25"),
+          leading: Icon(Icons.money),
         );
       }),
     );
