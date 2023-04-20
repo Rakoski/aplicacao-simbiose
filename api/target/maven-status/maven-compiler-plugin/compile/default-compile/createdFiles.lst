@@ -1,0 +1,6 @@
+com\api\SpringFoxConfig.class
+com\api\entity\Usuario.class
+com\api\ApiApplication.class
+com\api\repository\UsuarioRepository.class
+com\api\service\UsuarioService.class
+com\api\controller\UsuarioController.class
